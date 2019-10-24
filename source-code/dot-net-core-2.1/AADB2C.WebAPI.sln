@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27703.2000
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AADB2C.WebAPI", "AADB2C.WebAPI\AADB2C.WebAPI.csproj", "{864EA2E7-A80D-42C0-92F1-77CAD6D6DC40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AADB2C.WebAPI", "AADB2C.WebAPI\AADB2C.WebAPI.csproj", "{864EA2E7-A80D-42C0-92F1-77CAD6D6DC40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AADB2C.WebAPI.ClientCert", "AADB2C.WebAPI.ClientCert\AADB2C.WebAPI.ClientCert.csproj", "{EF47A37E-343D-484F-974B-7ACAF0040829}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{864EA2E7-A80D-42C0-92F1-77CAD6D6DC40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{864EA2E7-A80D-42C0-92F1-77CAD6D6DC40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{864EA2E7-A80D-42C0-92F1-77CAD6D6DC40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF47A37E-343D-484F-974B-7ACAF0040829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF47A37E-343D-484F-974B-7ACAF0040829}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF47A37E-343D-484F-974B-7ACAF0040829}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF47A37E-343D-484F-974B-7ACAF0040829}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
