@@ -18,9 +18,6 @@ namespace AADB2C.WebAPI.Controllers
     {
         Random rnd = new Random();
 
-        // Demo: Inject an instance of an AppSettingsModel class into the constructor of the consuming class, 
-        // and let dependency injection handle the rest
-
         [HttpPost(Name = "loyalty")]
         public async Task<ActionResult> Loyalty()
         {
