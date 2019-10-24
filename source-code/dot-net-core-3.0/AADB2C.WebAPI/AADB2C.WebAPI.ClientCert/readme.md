@@ -1,0 +1,1 @@
+﻿For more informaition how to configure certificate authentication in ASP.NET Core, see https://docs.microsoft.com/en-us/aspnet/core/security/authentication/certauth?view=aspnetcore-3.0#get-started and https://docs.microsoft.com/en-us/azure/active-directory-b2c/active-directory-b2c-custom-rest-api-netfw-secure-cert
