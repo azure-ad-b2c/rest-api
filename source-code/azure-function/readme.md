@@ -2,6 +2,14 @@
 
 [Azure Functions](https://docs.microsoft.com/azure/azure-functions/functions-overview) allows you to run small pieces of code (called "functions") without worrying about application infrastructure. With Azure Functions, the cloud infrastructure provides all the up-to-date servers you need to keep your application running at scale.
 
+
+## REST API samples
+
+Using Azure AD B2C, you can add your own business logic to a user journey by calling your own RESTful service. The Identity Experience Framework can send and receive data from your RESTful service to exchange claims.
+
+- [input-validation.csx](input-validation.csx), validates user input data
+- [obtain-claims.csx](obtain-claims.csx), enriches user data by further integrating with corporate line-of-business applications
+
 ## Create your Azure function in the Azure portal
 
 Sign in to the Azure portal at [https://portal.azure.com](https://portal.azure.com) with your Azure account.
