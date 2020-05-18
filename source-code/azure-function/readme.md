@@ -18,6 +18,6 @@ You must have a function app to host the execution of your functions. A function
 1. Expand your function app, then select the **+** button next to **Functions**.
 1. Select **HTTP trigger**
 1. For the **Name** type 'ValidateProfile'. For the authorization level choose the default `Function`, and click **Create**
-1. Replace the entire content of the **run.csx** file with the content of the [run.csx](run.csx) file.
+1. Replace the entire content of the **input-validation.csx** or **obtain-claims.csx** file with the content of the [run.csx](run.csx) file.
 1. Click **Save**
 1. Click **Get function URL** and copy the URL of your Azure function.  
