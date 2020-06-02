@@ -32,10 +32,11 @@ Links to custom REST API source code for following platform:
 
 <table border="0" style="border:none;">
     <tr style="border: none;">
-        <td style="padding-left:0; border: none;"><a href="https://github.com/azure-ad-b2c/rest-api/tree/master/source-code/DotNet-Core" ><img src="https://docs.microsoft.com/azure/app-service/media/index/logo_net.svg" height="48px" width="48px" alt=".Net Core" ><br /><span>.Net Core</span></a></div></td>
-        <td style="padding-left:20px; border: none;"><a href="https://github.com/azure-ad-b2c/rest-api/tree/master/source-code/NodeJs-Express" ><img src="https://docs.microsoft.com/azure/app-service/media/index/logo_nodejs.svg" height="48px" width="48px" alt="Node.js" ><br /?<span>Node.js</span></a></div></td>
-        <td style="padding-left:20px; border: none;"><a href="https://github.com/azure-ad-b2c/rest-api/tree/master/source-code/Java-Spring" ><img src="https://docs.microsoft.com/azure/app-service/media/index/logo_java.svg" height="48px" width="48px" alt="Java" ><br /><span>Java</span></a></div></td>
-        <td style="padding-left:20px; border: none;"><a href="https://github.com/azure-ad-b2c/rest-api/tree/master/source-code/Python-Flask" ><img src="https://docs.microsoft.com/azure/app-service/media/index/logo_python.svg" height="48px" width="48px" alt="Python (on Linux)" ><br /><span>Python (on Linux)</span></a></div></td>
+        <td style="padding-left:0; border: none;"><a href="https://github.com/azure-ad-b2c/rest-api/tree/master/source-code/azure-function" ><img src="https://docs.microsoft.com/azure/app-service/media/index/logo_net.svg" height="48px" width="48px" alt=".Net Core" ><br /><span>Azure Function - C#</span></a></div></td>
+        <td style="padding-left:0; border: none;"><a href="https://github.com/azure-ad-b2c/rest-api/tree/master/source-code/dot-net-core-3.0" ><img src="https://docs.microsoft.com/azure/app-service/media/index/logo_net.svg" height="48px" width="48px" alt=".Net Core" ><br /><span>.Net Core</span></a></div></td>
+        <td style="padding-left:20px; border: none;"><a href="https://github.com/azure-ad-b2c/rest-api/tree/master/source-code/node-js-express" ><img src="https://docs.microsoft.com/azure/app-service/media/index/logo_nodejs.svg" height="48px" width="48px" alt="Node.js" ><br /><span>Node.js</span></a></div></td>
+        <td style="padding-left:20px; border: none;"><a href="https://github.com/azure-ad-b2c/rest-api/tree/master/source-code/java-spring" ><img src="https://docs.microsoft.com/azure/app-service/media/index/logo_java.svg" height="48px" width="48px" alt="Java" ><br /><span>Java</span></a></div></td>
+        <td style="padding-left:20px; border: none;"><a href="https://github.com/azure-ad-b2c/rest-api/tree/master/source-code/python-flask" ><img src="https://docs.microsoft.com/azure/app-service/media/index/logo_python.svg" height="48px" width="48px" alt="Python (on Linux)" ><br /><span>Python (on Linux)</span></a></div></td>
     </tr>
 </table>
 
