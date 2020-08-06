@@ -9,7 +9,50 @@ Using Azure AD B2C, you can add your own business logic to a user journey by cal
 
 - [input-validation.csx](input-validation.csx), validates user input data
 - [obtain-claims.csx](obtain-claims.csx), enriches user data by further integrating with corporate line-of-business applications
-- [GetHttpStatusCode.csx](GetHttpStatusCode.csx), return HTTP [response code](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html) as passed in the query string, e.g. ```?status=200```. This help you simulate a call to a REST-API and test B2C policy against various HTTP responses.
+- [GetHttpStatusCode.csx](GetHttpStatusCode.csx), return HTTP [response code](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html) as passed in the query string, e.g. ```?status=200```. This help you simulate a call to a REST-API and test B2C policy against various HTTP responses. Live sample of this function is available at [GetHttpStatusCode]( https://gethttpresponsestatus.azurewebsites.net/api/GetHttpStatusCode?status=200)
+
+  Following ```cUrl``` commands show usage pattern of GetHttpStatusCode:
+
+  ```
+  $ curl -s -D -  https://gethttpresponsestatus.azurewebsites.net/api/GetHttpStatusCode?status=409
+  ```
+  ```
+  HTTP/1.1 409 Conflict
+  Content-Length: 363
+  Content-Type: application/json; charset=utf-8
+
+  {"version":"1.0.1","status":409,"code":null,"userMessage":"We are having an issue while processing this request, please try later.","developerMessage":"Sending status 409 back. Date: 2020-08-06T21:55:39.9805241Z","requestId":"70188cd5-f224-4418-bb2f-c196fd9c8353","moreInfo":"https://docs.microsoft.com/en-us/azure/active-directory-b2c/restful-technical-profile"}
+  ```
+
+  ```
+  $ curl -s -D -  https://gethttpresponsestatus.azurewebsites.net/api/GetHttpStatusCode?status=201
+  ```
+  ```
+  HTTP/1.1 201 Created
+  Content-Length: 26
+  Content-Type: application/json; charset=utf-8
+
+  {"randomNumber":433436479
+  ```
+
+  ```
+  $ curl -s -D -  https://gethttpresponsestatus.azurewebsites.net/api/GetHttpStatusCode?status=500
+  ```
+  ```
+  HTTP/1.1 500 Internal Server Error
+  Content-Type: application/json; charset=utf-8
+  Content-Length: 0
+  ```
+  ```
+  $ curl -s -D -  https://gethttpresponsestatus.azurewebsites.net/api/GetHttpStatusCode
+  ```
+  ```
+  HTTP/1.1 409 Conflict
+  Content-Length: 363
+  Content-Type: application/json; charset=utf-8
+
+  {"version":"1.0.1","status":409,"code":null,"userMessage":"We are having an issue while processing this request, please try later.","developerMessage":"Sending status 409 back. Date: 2020-08-06T21:55:39.9805241Z","requestId":"70188cd5-f224-4418-bb2f-c196fd9c8353","moreInfo":"https://docs.microsoft.com/en-us/azure/active-directory-b2c/restful-technical-profile"}
+  ```
 
 ## Create your Azure function in the Azure portal
 
