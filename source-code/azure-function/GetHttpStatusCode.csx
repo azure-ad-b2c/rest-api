@@ -51,7 +51,6 @@ public static async Task<IActionResult> Run(HttpRequest req, ILogger log)
             randomNumber = 0;
         }
         public int randomNumber { get; set; }
-        public string textOfSizeInKB { get; set; }
     }
 
     public class ResponseError
