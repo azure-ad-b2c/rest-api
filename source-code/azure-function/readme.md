@@ -9,6 +9,7 @@ Using Azure AD B2C, you can add your own business logic to a user journey by cal
 
 - [input-validation.csx](input-validation.csx), validates user input data
 - [obtain-claims.csx](obtain-claims.csx), enriches user data by further integrating with corporate line-of-business applications
+- [GetHttpStatusCode.csx](GetHttpStatusCode.csx), return HTTP [response code](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html) as passed in the query string, e.g. ```?status=200```. This help you simulate a call to a REST-API and test B2C policy against various HTTP responses.
 
 ## Create your Azure function in the Azure portal
 
